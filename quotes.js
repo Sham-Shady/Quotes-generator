@@ -1,18 +1,18 @@
 const quoteArr = [
   {
-    "line": "hahahahahaha",
-    "movie": "Me"
+    "line": "Leave the gun. Take the cannoli.",
+    "movie": "The Godfather"
   },{
-    "line":"Spider Man is coming home",
-    "movie":"Spider Man"
+    "line":"Tina, you fat lard! Come get some dinner! Tina, eat. Food. Eat the food!",
+    "movie":"Napoleon Dynamite"
   },{
     "line":"I am Groot",
     "movie":"Guardians of The Galaxy"
   },{
-    "line":"Make him an offer he can't refuse",
-    "movie":"Godfather"
+    "line":"I am a cotten-headed ninny-muggins!",
+    "movie":"Elf"
   },{
-    "line":"Hahahaha",
-    "movie":"Boo"
+    "line":"Bend…and snap!",
+    "movie":"Legally Blonde!"
   }
 ]
