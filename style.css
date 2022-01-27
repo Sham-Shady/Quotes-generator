@@ -35,27 +35,28 @@ section {
 
 /* From cssbuttons.io by @adamgiebl */
 button {
- background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
- background-size: 800% 400%;
- padding: 1em 2em;
- display: inline-block;
- border: none;
- border-radius: 10px;
- font-size: 17px;
- font-weight: 700;
- color: white;
- transition: all .5s ease-in-out;
- animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
-}
-
-button:hover {
- animation: gradient 3s infinite;
- transform: scale(1.05);
+  text-align: center;
+  height: 65px;
+  width: 185px;
+  line-height: 65px;
+  cursor: pointer;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #F0F0F0;
+  border-radius: 10px;
+  border-bottom: 4px solid #c0392b;
+  box-shadow: 6px 6px 6px #999;
+  user-select: none;
+  background: #e74c3c;
+  transition: background 0.05s linear;
+  transition: all .05s linear;
 }
 
 button:active {
- animation: gradient 3s infinite;
- transform: scale(0.8);
+  box-shadow: 2px 2px 2px #777;
+  border-bottom: 1px solid #c0392b;
+  transform: translateY(3px);
 }
 
 @keyframes gradient {
